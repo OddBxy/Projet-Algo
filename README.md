@@ -1,11 +1,7 @@
 # Projet-Algo
-Le jeu est un plateformer constituer de plusieurs niveaux.
-Pour l'instant le code contient des fonction permettants de de créer des formes qui feront office de surface (mur sols ..).
-Il y aussi une fonction permettant  d'initialiser un niveau.
+Ajout des images suivantes : joueur_fall, joueur_idle, image_jeu.
+Image_jeu est affiché en arrière plan lors de notre partie.
 
-L'initialisation du niveau se fait dans le main. Chaque niveau est contenu dans un tableau qui est parcouru en fonction de l'avancement du joueur dans le jeu.
-
-Deplacement.c contient toutes les fonctions gerant les collisions et les deplacements du joueur.
-C'est fonctions sont uilisées dans main.c pour deplacer le personnages, lui affecter une gravité ect.
-
-Le code contient aussi un menu d'acceuil et un menu pour quitter (lorsqu'on appuie sur "w").
+On a modifier la structure joueur et la fonctions permettant sont initialisation afin qu'elle possède les images joueur_fall et joueur_idle.
+On a aussi modifier le main afin que lorsque le joueur saut ou tombe, c'est le srpite joueur_fall qui s'affiche.
+Et lorsqu'il est au sol, c'est le sprite joueur_idle qui s'affiche.
