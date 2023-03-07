@@ -1,11 +1,5 @@
 # Projet-Algo
-Le jeu est un plateformer constituer de plusieurs niveaux.
-Pour l'instant le code contient des fonction permettants de de créer des formes qui feront office de surface (mur sols ..).
-Il y aussi une fonction permettant  d'initialiser un niveau.
+Mise à jour de la gestion de certaines collisions.
+Mise à jour du main afin de pouvoir recommencer le jeu une fois terminé, et éviter de sauvegarder automatiquement si le joueur quitte le jeu grâce au menu dedié alors qu'il a terminé le jeu (ce qui permet d'éviter la triche).
 
-L'initialisation du niveau se fait dans le main. Chaque niveau est contenu dans un tableau qui est parcouru en fonction de l'avancement du joueur dans le jeu.
-
-Deplacement.c contient toutes les fonctions gerant les collisions et les deplacements du joueur.
-C'est fonctions sont uilisées dans main.c pour deplacer le personnages, lui affecter une gravité ect.
-
-Le code contient aussi un menu d'acceuil et un menu pour quitter (lorsqu'on appuie sur "w").
+Implémentation de nouveaux niveaux.
