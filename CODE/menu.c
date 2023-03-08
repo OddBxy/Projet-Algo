@@ -16,7 +16,7 @@ void menu(DonneesImageRGB *image_acceuil ){
 		ecrisImage(0, 0, image_acceuil->largeurImage, image_acceuil->hauteurImage, image_acceuil->donneesRGB);	
 	}
 	epaisseurDeTrait(3);
-	afficheChaine("TITRE DE JEU", 20, largeurFenetre()*0.45, hauteurFenetre()*0.55);
+	afficheChaine("PLATEFORM PERIL", 20, largeurFenetre()*0.38, hauteurFenetre()*0.55);
 	rectangle(largeurFenetre()*0.35, hauteurFenetre()*0.4, largeurFenetre()*0.7, hauteurFenetre()*0.5);
 	rectangle(largeurFenetre()*0.35, hauteurFenetre()*0.25, largeurFenetre()*0.7, hauteurFenetre()*0.35);
 	couleurCourante(255,255,255);
